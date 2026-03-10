@@ -1,0 +1,129 @@
+Gene	Amino Acid	Number	Script ID	Modification	Fraction modified	Highest Intensity	Median Intensity
+377_Sp5803_1	S	156	3	Phos	Only modified detected	21418000.0	21418000.0
+377_Sp5803_1	S	156	5	Phos	Only modified detected	21418000.0	21418000.0
+92_AgSp1_1	T	847	7	Hex	Only modified detected	8265000.0	4772400.0
+92_AgSp1_1	T	852	7	Hex	Cannot Determine	8265000.0	4772400.0
+92_AgSp1_1	T	870	7	Hex	Only modified detected	172690000.0	18359500.0
+92_AgSp1_1	T	938	7	Hex	Only modified detected	4738500.0	4738500.0
+92_AgSp1_1	T	1001	7	Hex	Only modified detected	13109000.0	8813050.0
+92_AgSp1_1	T	1089	7	Hex	Cannot Determine	33360000.0	3784400.0
+92_AgSp1_1	T	1205	7	Hex	Only modified detected	9069300.0	9069300.0
+92_AgSp1_1	S	1274	7	Hex	Only modified detected	9071300.0	8129200.0
+92_AgSp1_1	T	1276	7	Hex	Only modified detected	9071300.0	8129200.0
+92_AgSp1_1	T	1335	7	Hex	Only modified detected	6604100.0	4310950.0
+92_AgSp1_1	T	1336	7	Hex	Only modified detected	6604100.0	4310950.0
+92_AgSp1_1	T	1358	7	Hex	Only modified detected	22691000.0	22691000.0
+92_AgSp1_1	T	1363	7	Hex	Only modified detected	22691000.0	22691000.0
+92_AgSp1_1	S	1378	7	Hex	Only modified detected	15462000.0	9590800.0
+92_AgSp1_1	T	1403	7	Hex	Cannot Determine	13749000.0	8152800.0
+92_AgSp1_1	T	1408	7	Hex	Cannot Determine	13749000.0	8152800.0
+92_AgSp1_1	T	1415	7	Hex	Only modified detected	13749000.0	8152800.0
+92_AgSp1_1	T	1421	7	Hex	Only modified detected	9256600.0	6749750.0
+92_AgSp1_1	T	1620	7	Hex	Only modified detected	13549000.0	13549000.0
+92_AgSp1_1	T	1622	7	Hex	Only modified detected	13549000.0	13549000.0
+92_AgSp1_1	T	1623	7	Hex	Only modified detected	13549000.0	13549000.0
+92_AgSp1_1	T	2014	7	Hex	Only modified detected	8972200.0	8972200.0
+92_AgSp1_1	T	2017	7	Hex	Only modified detected	8972200.0	8972200.0
+92_AgSp1_1	T	2023	7	Hex	Only modified detected	8972200.0	8972200.0
+92_AgSp1_1	S	2425	7	Hex	Only modified detected	79852000.0	10548000.0
+92_AgSp1_1	T	2426	7	Hex	Cannot Determine	79852000.0	10548000.0
+92_AgSp1_1	T	2442	7	Hex	Only modified detected	53612000.0	53612000.0
+92_AgSp1_1	T	2443	7	Hex	Only modified detected	53612000.0	53612000.0
+92_AgSp1_1	T	3242	7	Hex	Only modified detected	70810000.0	49811000.0
+92_AgSp1_1	T	3243	7	Hex	Only modified detected	70810000.0	49811000.0
+92_AgSp1_1	T	3773	7	Hex	Only modified detected	14123000.0	14123000.0
+92_AgSp1_1	T	3774	7	Hex	Only modified detected	14123000.0	14123000.0
+92_AgSp1_1	T	4329	7	Hex	Only modified detected	12383000.0	12383000.0
+92_AgSp1_1	T	4330	7	Hex	Only modified detected	12383000.0	12383000.0
+92_AgSp1_1	T	4763	7	Hex	Only modified detected	7748600.0	4425250.0
+92_AgSp1_1	T	4764	7	Hex	Only modified detected	7748600.0	4425250.0
+92_AgSp1_1	T	4779	7	Hex	Only modified detected	10855000.0	10855000.0
+92_AgSp1_1	T	4780	7	Hex	Only modified detected	10855000.0	10855000.0
+92_AgSp1_1	T	5117	7	Hex	Only modified detected	22084000.0	12244650.0
+92_AgSp1_1	S	5220	7	Hex	Only modified detected	2034600.0	2034600.0
+92_AgSp1_1	T	5221	7	Hex	Only modified detected	2034600.0	2034600.0
+92_AgSp1_1	T	5222	7	Hex	Only modified detected	2034600.0	2034600.0
+92_AgSp1_1	T	5402	7	Hex	0.8626359663046438	12121000.0	2603400.0
+92_AgSp1_1	T	847	9	Hex	0.44523535560786365	7390300.0	5312100.0
+92_AgSp1_1	T	852	9	Hex	Only modified detected	7390300.0	5312100.0
+92_AgSp1_1	T	870	9	Hex	Only modified detected	128920000.0	4551600.0
+92_AgSp1_1	T	1001	9	Hex	Only modified detected	8628300.0	5667750.0
+92_AgSp1_1	T	1089	9	Hex	0.6289102002039478	29241000.0	3727300.0
+92_AgSp1_1	S	1274	9	Hex	Only modified detected	9929500.0	7947550.0
+92_AgSp1_1	T	1276	9	Hex	Only modified detected	9929500.0	7947550.0
+92_AgSp1_1	T	1335	9	Hex	Only modified detected	4587400.0	4587400.0
+92_AgSp1_1	T	1336	9	Hex	Only modified detected	4587400.0	4587400.0
+92_AgSp1_1	T	1358	9	Hex	Only modified detected	37095000.0	37095000.0
+92_AgSp1_1	T	1363	9	Hex	Only modified detected	37095000.0	37095000.0
+92_AgSp1_1	S	1378	9	Hex	Only modified detected	17269000.0	17269000.0
+92_AgSp1_1	T	1421	9	Hex	Only modified detected	4872200.0	4872200.0
+92_AgSp1_1	T	1435	9	Hex	Only modified detected	8272000.0	8272000.0
+92_AgSp1_1	T	2014	9	Hex	Only modified detected	7778400.0	7778400.0
+92_AgSp1_1	T	2017	9	Hex	Only modified detected	7778400.0	7778400.0
+92_AgSp1_1	T	2023	9	Hex	Only modified detected	7778400.0	7778400.0
+92_AgSp1_1	S	2425	9	Hex	Only modified detected	30785000.0	17707800.0
+92_AgSp1_1	T	2426	9	Hex	Only modified detected	30785000.0	17707800.0
+92_AgSp1_1	T	2442	9	Hex	Only modified detected	18440000.0	18440000.0
+92_AgSp1_1	T	2443	9	Hex	Only modified detected	18440000.0	18440000.0
+92_AgSp1_1	T	3242	9	Hex	Only modified detected	41715000.0	27563000.0
+92_AgSp1_1	T	3243	9	Hex	Only modified detected	41715000.0	27563000.0
+92_AgSp1_1	T	3773	9	Hex	Only modified detected	7148000.0	7148000.0
+92_AgSp1_1	T	3774	9	Hex	Only modified detected	7148000.0	7148000.0
+92_AgSp1_1	T	4330	9	Hex	Only modified detected	5192100.0	5192100.0
+92_AgSp1_1	T	4332	9	Hex	Only modified detected	5192100.0	5192100.0
+92_AgSp1_1	T	4763	9	Hex	Only modified detected	4562700.0	4562700.0
+92_AgSp1_1	T	4764	9	Hex	Only modified detected	4562700.0	4562700.0
+92_AgSp1_1	T	4779	9	Hex	Only modified detected	3941400.0	3941400.0
+92_AgSp1_1	T	4780	9	Hex	Only modified detected	3941400.0	3941400.0
+92_AgSp1_1	T	5117	9	Hex	Only modified detected	19652000.0	10718000.0
+92_AgSp1_1	T	5402	9	Hex	Only modified detected	13095000.0	13095000.0
+92_AgSp1_1	T	847	11	Hex	0.16622936790414605	7390300.0	6240150.0
+92_AgSp1_1	T	852	11	Hex	Only modified detected	7390300.0	6240150.0
+92_AgSp1_1	T	870	11	Hex	Only modified detected	128920000.0	17310800.0
+92_AgSp1_1	T	1001	11	Hex	Only modified detected	8628300.0	5667750.0
+92_AgSp1_1	T	1089	11	Hex	Cannot Determine	29241000.0	3727300.0
+92_AgSp1_1	T	1265	11	Hex	Cannot Determine	9929500.0	5965600.0
+92_AgSp1_1	S	1274	11	Hex	Cannot Determine	9929500.0	5965600.0
+92_AgSp1_1	T	1276	11	Hex	Cannot Determine	9929500.0	5965600.0
+92_AgSp1_1	T	1335	11	Hex	Only modified detected	4587400.0	2956650.0
+92_AgSp1_1	T	1336	11	Hex	Only modified detected	4587400.0	2956650.0
+92_AgSp1_1	T	1358	11	Hex	Only modified detected	37095000.0	37095000.0
+92_AgSp1_1	T	1363	11	Hex	Only modified detected	37095000.0	37095000.0
+92_AgSp1_1	S	1378	11	Hex	Only modified detected	17269000.0	17269000.0
+92_AgSp1_1	T	1421	11	Hex	Only modified detected	4872200.0	4872200.0
+92_AgSp1_1	T	1435	11	Hex	Cannot Determine	8272000.0	7172000.0
+92_AgSp1_1	T	1451	11	Hex	Cannot Determine	8272000.0	7172000.0
+92_AgSp1_1	T	1467	11	Hex	Cannot Determine	8272000.0	7172000.0
+92_AgSp1_1	T	1469	11	Hex	Cannot Determine	8272000.0	7172000.0
+92_AgSp1_1	T	2014	11	Hex	Only modified detected	7778400.0	7778400.0
+92_AgSp1_1	T	2017	11	Hex	Only modified detected	7778400.0	7778400.0
+92_AgSp1_1	T	2023	11	Hex	Only modified detected	7778400.0	7778400.0
+92_AgSp1_1	S	2425	11	Hex	Only modified detected	30785000.0	17707800.0
+92_AgSp1_1	T	2426	11	Hex	Only modified detected	30785000.0	17707800.0
+92_AgSp1_1	T	2442	11	Hex	Only modified detected	18440000.0	18440000.0
+92_AgSp1_1	T	2443	11	Hex	Only modified detected	18440000.0	18440000.0
+92_AgSp1_1	T	3242	11	Hex	Only modified detected	41715000.0	27563000.0
+92_AgSp1_1	T	3243	11	Hex	Only modified detected	41715000.0	27563000.0
+92_AgSp1_1	T	3773	11	Hex	Only modified detected	7148000.0	7148000.0
+92_AgSp1_1	T	3774	11	Hex	Only modified detected	7148000.0	7148000.0
+92_AgSp1_1	T	4330	11	Hex	Only modified detected	5192100.0	5192100.0
+92_AgSp1_1	T	4332	11	Hex	Only modified detected	5192100.0	5192100.0
+92_AgSp1_1	T	4763	11	Hex	Only modified detected	4562700.0	4562700.0
+92_AgSp1_1	T	4764	11	Hex	Only modified detected	4562700.0	4562700.0
+92_AgSp1_1	T	4779	11	Hex	Only modified detected	3941400.0	3941400.0
+92_AgSp1_1	T	4780	11	Hex	Only modified detected	3941400.0	3941400.0
+92_AgSp1_1	T	5117	11	Hex	Only modified detected	19652000.0	10718000.0
+92_AgSp1_1	T	5402	11	Hex	Only modified detected	13095000.0	13095000.0
+TRINITY_DN156457_c0_g1	S	62	3	Phos	Only modified detected	6448900.0	6448900.0
+TRINITY_DN156457_c0_g1	S	62	5	Phos	Only modified detected	6448900.0	6448900.0
+TRINITY_DN138_c0_g1	T	775	7	Hex	Only modified detected	11287000.0	7757650.0
+TRINITY_DN138_c0_g1	T	776	7	Hex	Only modified detected	11287000.0	7757650.0
+TRINITY_DN138_c0_g1	T	775	9	Hex	Only modified detected	5853500.0	5853500.0
+TRINITY_DN138_c0_g1	T	776	9	Hex	Only modified detected	5853500.0	5853500.0
+TRINITY_DN138_c0_g1	T	775	11	Hex	Only modified detected	5853500.0	5853500.0
+TRINITY_DN138_c0_g1	T	776	11	Hex	Only modified detected	5853500.0	5853500.0
+TRINITY_DN102554_c2_g2	S	42	1	Phos	0.977393009001417	37433000.0	4946350.0
+TRINITY_DN102554_c2_g2	S	42	3	Phos	0.8888354808587472	20136000.0	8479500.0
+TRINITY_DN102554_c2_g2	T	43	3	Phos	0.7776709617174944	20136000.0	8479500.0
+TRINITY_DN102554_c2_g2	S	42	5	Phos	Cannot Determine	14147000.0	6417650.0
+TRINITY_DN102554_c2_g2	T	43	5	Phos	Cannot Determine	14147000.0	6417650.0

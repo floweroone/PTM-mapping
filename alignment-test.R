@@ -32,105 +32,8 @@ aa_sequence_map <- data.frame(
   Residue  = as.vector(t(aa_aln_matrix))
 )
 
-
-#POTENTIAL AUTOMATION!!
-
-# Install packages (run once)
-# install.packages("BiocManager")
-# BiocManager::install("Biostrings")
-# BiocManager::install("msa")
-
-# Automated alignment-to-dataframe function
-library(Biostrings)
-
-# ── Core function (unchanged) ─────────────────────────────────────────────────
+#Finalized automation
 process_alignment <- function(alignment_file) {
-  
-  aa_aln <- readAAStringSet(alignment_file)
-  
-  widths <- width(aa_aln)
-  if (any(widths != widths[1])) {
-    warning(paste("Not all sequences have the same width in:", alignment_file))
-  }
-  
-  message(paste("Loaded:", basename(alignment_file), 
-                "→", length(aa_aln), "sequences,", widths[1], "positions"))
-  
-  aa_aln_matrix <- as.matrix(aa_aln)
-  
-  aa_sequence_map <- data.frame(
-    Sequence = rep(rownames(aa_aln_matrix), each = ncol(aa_aln_matrix)),
-    AlnCol   = rep(1:ncol(aa_aln_matrix), times = nrow(aa_aln_matrix)),
-    GlobalID = 1:(nrow(aa_aln_matrix) * ncol(aa_aln_matrix)),
-    Residue  = as.vector(t(aa_aln_matrix)),
-    stringsAsFactors = FALSE
-  )
-  
-  return(list(
-    alignment = aa_aln,
-    matrix    = aa_aln_matrix,
-    map       = aa_sequence_map
-  ))
-}
-
-# ── Batch processing ──────────────────────────────────────────────────────────
-
-# Find all .aln-fasta files in the folder
-fasta_files <- list.files(
-  path       = "aligned-fasta-files",
-  pattern    = "\\.aln-fasta$",       # change pattern if your extension differs
-  full.names = TRUE
-)
-
-message(paste("Found", length(fasta_files), "alignment files to process.\n"))
-
-# Process every file and store results in a named list
-alignments <- list()
-
-for (f in fasta_files) {
-  # Use the filename (no path, no extension) as the list key
-  key <- tools::file_path_sans_ext(basename(f))
-  key <- gsub("\\.aln$", "", key)          # strip extra .aln if present
-  
-  tryCatch({
-    alignments[[key]] <- process_alignment(f)
-  }, error = function(e) {
-    warning(paste("Skipping", f, "→", e$message))
-  })
-}
-
-# ── Build master dataframe ────────────────────────────────────────────────────
-
-master_map <- do.call(rbind, lapply(names(alignments), function(key) {
-  df <- alignments[[key]]$map
-  df$SourceFile <- key          # tag every row with which alignment it came from
-  df$GlobalID   <- NULL         # drop per-file GlobalID (will regenerate below)
-  df
-}))
-
-# Fresh global row ID across all files
-master_map$GlobalID <- seq_len(nrow(master_map))
-
-# Reorder columns neatly
-master_map <- master_map[, c("GlobalID", "SourceFile", "Sequence", "AlnCol", "Residue")]
-
-message(paste("\nMaster dataframe built:", nrow(master_map), "rows,",
-              length(unique(master_map$SourceFile)), "alignment files."))
-
-# ── Save / inspect ────────────────────────────────────────────────────────────
-
-# Save to CSV
-write.csv(master_map, "master_alignment_map.csv", row.names = FALSE)
-message("Saved → master_alignment_map.csv")
-
-# Quick look
-View(master_map)
-head(master_map)
-table(master_map$SourceFile)   # row counts per file
-
-
-#CHAT GPT CODE!!!!!
-process_alignment2 <- function(alignment_file) {
   
   aa_aln <- Biostrings::readAAStringSet(alignment_file)
   
@@ -187,7 +90,7 @@ build_master_from_folder <- function(folder = "aligned-fasta-files",
     
     message(sprintf("[%d/%d] Processing %s", i, length(files), file_name))
     
-    result <- process_alignment2(file_path)
+    result <- process_alignment(file_path)
     
     alignments[[file_name]] <- result
     
@@ -200,8 +103,9 @@ build_master_from_folder <- function(folder = "aligned-fasta-files",
   # Combine all files
   master_map <- do.call(rbind, master_list)
   
-  # Create unique master ID across EVERYTHING
-  master_map$MasterID <- seq_len(nrow(master_map))
+  # Create unique master ID across EVERYTHING — gaps (dashes) get NA
+  master_map$MasterID <- NA_integer_
+  master_map$MasterID[master_map$Residue != "-"] <- seq_len(sum(master_map$Residue != "-"))
   
   # Clean column order
   master_map <- master_map[, c(
@@ -234,3 +138,31 @@ results <- build_master_from_folder(
 
 master_map <- results$master_map
 View(master_map)
+
+#reading everything in from the folders nicely
+library(dplyr)
+
+TMT_folders <- c("TMT_modifications_raw", "TMT_quantified_raw")
+
+df_all <- lapply(TMT_folders, function(folder) {
+  files <- list.files(folder, pattern = "\\.txt$", full.names = TRUE)
+  
+  lapply(files, function(f) {
+    df <- read.delim(f, sep = "\t", header = TRUE)
+    
+    # Skip rogue files (e.g. P_tepidarorium_proteins.txt)
+    if (ncol(df) < 7) {
+      message("Skipping (unexpected format): ", basename(f))
+      return(NULL)
+    }
+    
+    df$source_file   <- basename(f)
+    df$source_folder <- basename(folder)
+    df
+  })
+}) |> unlist(recursive = FALSE) |> bind_rows()  # <-- this handles mismatched columns
+
+# Split into two named dataframes
+TMT_modifications <- df_all[df_all$source_folder == "TMT_modifications_raw", ]
+TMT_quantified    <- df_all[df_all$source_folder == "TMT_quantified_raw", ]
+

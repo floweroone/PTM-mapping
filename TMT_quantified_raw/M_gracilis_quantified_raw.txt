@@ -1,0 +1,32 @@
+Gene	Amino Acid	Number	Script ID	Modification	Fraction modified	Highest Intensity	Median Intensity
+TRINITY_DN513_c0_g1	S	247	3	Phos	Only modified detected	4794300.0	4794300.0
+TRINITY_DN513_c0_g1	S	247	5	Phos	Only modified detected	4794300.0	4794300.0
+TRINITY_DN46726_c0_g1	T	16	7	Hex	Cannot Determine	35877000.0	14620900.0
+TRINITY_DN46726_c0_g1	S	17	7	Hex	Cannot Determine	35877000.0	14620900.0
+TRINITY_DN46726_c0_g1	T	16	9	Hex	Cannot Determine	42212000.0	12551000.0
+TRINITY_DN46726_c0_g1	S	17	9	Hex	Cannot Determine	42212000.0	12551000.0
+TRINITY_DN46726_c0_g1	T	16	11	Hex	Cannot Determine	42212000.0	12551000.0
+TRINITY_DN46726_c0_g1	S	17	11	Hex	Cannot Determine	42212000.0	12551000.0
+TRINITY_DN1546_c0_g1	S	8	1	Phos	Only modified detected	1688300.0	1688300.0
+TRINITY_DN1546_c0_g1	S	14	1	Phos	Only modified detected	1688300.0	1688300.0
+TRINITY_DN1546_c0_g1	S	8	5	Phos	Only modified detected	2985200.0	2985200.0
+TRINITY_DN1546_c0_g1	S	14	5	Phos	Only modified detected	2985200.0	2985200.0
+TRINITY_DN1546_c0_g1	T	6	7	Hex	Only modified detected	1688300.0	1688300.0
+TRINITY_DN1546_c0_g1	S	19	7	Hex	Only modified detected	1688300.0	1688300.0
+TRINITY_DN1546_c0_g1	T	20	7	Hex	Only modified detected	1688300.0	1688300.0
+TRINITY_DN1546_c0_g1	S	485	9	Hex	Only modified detected	694590.0	694590.0
+TRINITY_DN1546_c0_g1	T	486	9	Hex	Only modified detected	694590.0	694590.0
+TRINITY_DN1546_c0_g1	T	6	11	Hex	Only modified detected	2985200.0	2985200.0
+TRINITY_DN1546_c0_g1	S	19	11	Hex	Only modified detected	2985200.0	2985200.0
+TRINITY_DN1546_c0_g1	T	20	11	Hex	Only modified detected	2985200.0	2985200.0
+TRINITY_DN1546_c0_g1	T	466	11	Hex	Only modified detected	3949500.0	3949500.0
+TRINITY_DN1546_c0_g1	T	468	11	Hex	Only modified detected	3949500.0	3949500.0
+TRINITY_DN1546_c0_g1	S	470	11	Hex	Only modified detected	3949500.0	3949500.0
+TRINITY_DN1546_c0_g1	S	485	11	Hex	Only modified detected	694590.0	694590.0
+TRINITY_DN1546_c0_g1	T	486	11	Hex	Only modified detected	694590.0	694590.0
+TRINITY_DN40030_c3_g1	S	48	1	Phos	Only modified detected	14944000.0	14944000.0
+TRINITY_DN40030_c3_g1	S	48	3	Phos	Only modified detected	31925000.0	19204550.0
+TRINITY_DN40030_c3_g1	S	48	5	Phos	Only modified detected	31925000.0	31925000.0
+TRINITY_DN128477_c0_g1	S	35	1	Phos	Only modified detected	1881500.0	1881500.0
+TRINITY_DN128477_c0_g1	S	35	3	Phos	Only modified detected	4365200.0	4365200.0
+TRINITY_DN128477_c0_g1	S	35	5	Phos	Only modified detected	4365200.0	4365200.0

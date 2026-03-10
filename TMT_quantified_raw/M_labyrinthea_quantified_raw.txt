@@ -1,0 +1,76 @@
+Gene	Amino Acid	Number	Script ID	Modification	Fraction modified	Highest Intensity	Median Intensity
+Mlaby_7048_AgSp1	S	1511	1	Phos	0.8701746021150568	2717400.0	2269450.0
+Mlaby_7048_AgSp1	S	3395	1	Phos	0.7795311193812703	9883700.0	3552700.0
+Mlaby_7048_AgSp1	S	875	3	Phos	0.3118098350928795	11761000.0	5155300.0
+Mlaby_7048_AgSp1	S	1511	3	Phos	Only modified detected	1320500.0	1320500.0
+Mlaby_7048_AgSp1	S	875	5	Phos	0.5893271104084429	11761000.0	5155300.0
+Mlaby_7048_AgSp1	T	1038	7	Hex	Only modified detected	15971000.0	15971000.0
+Mlaby_7048_AgSp1	T	1042	7	Hex	Only modified detected	15971000.0	15971000.0
+Mlaby_7048_AgSp1	T	1079	7	Hex	0.7049372691958392	12837000.0	4009800.0
+Mlaby_7048_AgSp1	T	1109	7	Hex	Only modified detected	17371000.0	9949500.0
+Mlaby_7048_AgSp1	T	1167	7	Hex	Only modified detected	19004000.0	17394500.0
+Mlaby_7048_AgSp1	T	1255	7	Hex	0.5118560859234895	22850000.0	13193950.0
+Mlaby_7048_AgSp1	T	1261	7	Hex	0.4881439140765105	22850000.0	13193950.0
+Mlaby_7048_AgSp1	T	1303	7	Hex	Only modified detected	16632000.0	16632000.0
+Mlaby_7048_AgSp1	T	1306	7	Hex	Only modified detected	16632000.0	16632000.0
+Mlaby_7048_AgSp1	T	1419	7	Hex	Only modified detected	10544000.0	10544000.0
+Mlaby_7048_AgSp1	T	1421	7	Hex	Only modified detected	10544000.0	10544000.0
+Mlaby_7048_AgSp1	S	1461	7	Hex	Only modified detected	22505000.0	15419550.0
+Mlaby_7048_AgSp1	T	1499	7	Hex	Only modified detected	44664000.0	5722150.0
+Mlaby_7048_AgSp1	T	1586	7	Hex	0.4390267463379145	24663000.0	5952300.0
+Mlaby_7048_AgSp1	T	1857	7	Hex	Only modified detected	12349000.0	12349000.0
+Mlaby_7048_AgSp1	T	1896	7	Hex	Only modified detected	5033500.0	5033500.0
+Mlaby_7048_AgSp1	T	2073	7	Hex	Only modified detected	15294000.0	8951350.0
+Mlaby_7048_AgSp1	T	2074	7	Hex	Only modified detected	15294000.0	8951350.0
+Mlaby_7048_AgSp1	T	2697	7	Hex	Cannot Determine	10591000.0	8933450.0
+Mlaby_7048_AgSp1	T	2698	7	Hex	Only modified detected	10591000.0	8933450.0
+Mlaby_7048_AgSp1	T	2717	7	Hex	Only modified detected	10591000.0	8933450.0
+Mlaby_7048_AgSp1	T	2741	7	Hex	Only modified detected	1102700.0	1102700.0
+Mlaby_7048_AgSp1	S	2744	7	Hex	Only modified detected	1102700.0	1102700.0
+Mlaby_7048_AgSp1	T	2808	7	Hex	Only modified detected	14748000.0	14748000.0
+Mlaby_7048_AgSp1	T	2809	7	Hex	Only modified detected	14748000.0	14748000.0
+Mlaby_7048_AgSp1	T	2810	7	Hex	Only modified detected	14748000.0	14748000.0
+Mlaby_7048_AgSp1	T	2814	7	Hex	Only modified detected	14748000.0	14748000.0
+Mlaby_7048_AgSp1	T	1038	9	Hex	Only modified detected	14540000.0	14540000.0
+Mlaby_7048_AgSp1	T	1042	9	Hex	Only modified detected	14540000.0	14540000.0
+Mlaby_7048_AgSp1	T	1079	9	Hex	0.833744554914645	11649000.0	3975100.0
+Mlaby_7048_AgSp1	T	1109	9	Hex	Only modified detected	16930000.0	10227750.0
+Mlaby_7048_AgSp1	T	1167	9	Hex	Only modified detected	19600000.0	16897000.0
+Mlaby_7048_AgSp1	T	1255	9	Hex	Only modified detected	17161000.0	17161000.0
+Mlaby_7048_AgSp1	T	1302	9	Hex	Only modified detected	18112000.0	18112000.0
+Mlaby_7048_AgSp1	T	1306	9	Hex	Only modified detected	18112000.0	18112000.0
+Mlaby_7048_AgSp1	T	1459	9	Hex	Cannot Determine	19809000.0	13457950.0
+Mlaby_7048_AgSp1	S	1461	9	Hex	Cannot Determine	19809000.0	13457950.0
+Mlaby_7048_AgSp1	T	1499	9	Hex	Only modified detected	22945000.0	4971100.0
+Mlaby_7048_AgSp1	T	1586	9	Hex	Cannot Determine	19961000.0	6003800.0
+Mlaby_7048_AgSp1	S	1699	9	Hex	Only modified detected	13112000.0	13112000.0
+Mlaby_7048_AgSp1	T	1700	9	Hex	Only modified detected	13112000.0	13112000.0
+Mlaby_7048_AgSp1	T	1705	9	Hex	Only modified detected	13112000.0	13112000.0
+Mlaby_7048_AgSp1	T	1857	9	Hex	Only modified detected	9872900.0	9872900.0
+Mlaby_7048_AgSp1	T	1896	9	Hex	Only modified detected	4386700.0	4386700.0
+Mlaby_7048_AgSp1	T	2073	9	Hex	Only modified detected	12808000.0	7570400.0
+Mlaby_7048_AgSp1	T	2074	9	Hex	Only modified detected	12808000.0	7570400.0
+Mlaby_7048_AgSp1	T	1038	11	Hex	Only modified detected	14540000.0	14540000.0
+Mlaby_7048_AgSp1	T	1042	11	Hex	Only modified detected	14540000.0	14540000.0
+Mlaby_7048_AgSp1	T	1079	11	Hex	0.5510203452065893	11649000.0	3975100.0
+Mlaby_7048_AgSp1	T	1109	11	Hex	Only modified detected	16930000.0	10227750.0
+Mlaby_7048_AgSp1	T	1167	11	Hex	Only modified detected	19600000.0	16897000.0
+Mlaby_7048_AgSp1	T	1255	11	Hex	Only modified detected	17161000.0	17161000.0
+Mlaby_7048_AgSp1	T	1302	11	Hex	Only modified detected	18112000.0	18112000.0
+Mlaby_7048_AgSp1	T	1306	11	Hex	Only modified detected	18112000.0	18112000.0
+Mlaby_7048_AgSp1	T	1459	11	Hex	Cannot Determine	19809000.0	13457950.0
+Mlaby_7048_AgSp1	S	1461	11	Hex	Cannot Determine	19809000.0	13457950.0
+Mlaby_7048_AgSp1	T	1499	11	Hex	Only modified detected	22945000.0	22945000.0
+Mlaby_7048_AgSp1	T	1586	11	Hex	Cannot Determine	19961000.0	6003800.0
+Mlaby_7048_AgSp1	S	1699	11	Hex	Only modified detected	13112000.0	13112000.0
+Mlaby_7048_AgSp1	T	1700	11	Hex	Only modified detected	13112000.0	13112000.0
+Mlaby_7048_AgSp1	T	1705	11	Hex	Only modified detected	13112000.0	13112000.0
+Mlaby_7048_AgSp1	T	1857	11	Hex	Only modified detected	9872900.0	9872900.0
+Mlaby_7048_AgSp1	T	1896	11	Hex	Only modified detected	4386700.0	4386700.0
+Mlaby_7048_AgSp1	T	2073	11	Hex	Only modified detected	12808000.0	7570400.0
+Mlaby_7048_AgSp1	T	2074	11	Hex	Only modified detected	12808000.0	7570400.0
+Mlaby_1605_AgSp2.1	S	659	7	Hex	Cannot Determine	7570000.0	6672600.0
+Mlaby_1605_AgSp2.1	T	660	7	Hex	Only modified detected	7570000.0	6672600.0
+Mlaby_1605_AgSp2.1	T	663	7	Hex	Cannot Determine	7570000.0	6672600.0
+Mlaby_1605_AgSp2.1	T	660	11	Hex	Only modified detected	5881700.0	5881700.0
+Mlaby_1605_AgSp2.1	T	663	11	Hex	Only modified detected	5881700.0	5881700.0
