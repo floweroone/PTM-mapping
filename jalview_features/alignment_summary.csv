@@ -1,0 +1,93 @@
+"alignment","status","ptm_sites_found","ptm_sites_mapped","feature_file"
+"AgSp1_all_cp_alignment","Written",5,5,"jalview_features/AgSp1_all_cp_alignment.features"
+"AgSp1_all_cr_alignment","Written",7,7,"jalview_features/AgSp1_all_cr_alignment.features"
+"AgSp1_all_ct_alignment","Written",1,1,"jalview_features/AgSp1_all_ct_alignment.features"
+"AgSp1_all_glycine_alignment","Written",47,47,"jalview_features/AgSp1_all_glycine_alignment.features"
+"AgSp1_all_glycine_rm1_alignment","Written",45,45,"jalview_features/AgSp1_all_glycine_rm1_alignment.features"
+"AgSp1_all_glycine_rm2_alignment","Written",1,1,"jalview_features/AgSp1_all_glycine_rm2_alignment.features"
+"AgSp1_all_glycine_rm2b_alignment","Written",1,1,"jalview_features/AgSp1_all_glycine_rm2b_alignment.features"
+"AgSp1_all_nt_alignment","Written",3,3,"jalview_features/AgSp1_all_nt_alignment.features"
+"AgSp1_all_rr_alignment","Written",356,356,"jalview_features/AgSp1_all_rr_alignment.features"
+"AgSp1_all_serine_alignment","Written",77,77,"jalview_features/AgSp1_all_serine_alignment.features"
+"AgSp1_all_serine_rm1_alignment","Written",26,26,"jalview_features/AgSp1_all_serine_rm1_alignment.features"
+"AgSp1_all_serine_rm1c_alignment","No PTM data",0,0,NA
+"AgSp1_all_serine_rm2_alignment","Written",38,38,"jalview_features/AgSp1_all_serine_rm2_alignment.features"
+"AgSp1_all_serine_rm3_alignment","Written",13,13,"jalview_features/AgSp1_all_serine_rm3_alignment.features"
+"AgSp1_all_sy_alignment","Written",12,12,"jalview_features/AgSp1_all_sy_alignment.features"
+"AgSp1_all_tr_alignment","Written",8,8,"jalview_features/AgSp1_all_tr_alignment.features"
+"AgSp1_all_tr_rm1_alignment","Written",40,40,"jalview_features/AgSp1_all_tr_rm1_alignment.features"
+"AgSp1_all_tr_rm2_alignment","Written",9,9,"jalview_features/AgSp1_all_tr_rm2_alignment.features"
+"AgSp1_all_tr_rm3_alignment","No PTM data",0,0,NA
+"AgSp1_cp_alignment","Written",5,5,"jalview_features/AgSp1_cp_alignment.features"
+"AgSp1_cr_alignment","No PTM data",0,0,NA
+"AgSp1_cr_cross_species","Written",92,92,"jalview_features/AgSp1_cr_cross_species.features"
+"AgSp1_ct_alignment","Written",1,1,"jalview_features/AgSp1_ct_alignment.features"
+"AgSp1_ct_cross_species","No PTM data",0,0,NA
+"AgSp1_glycine_alignment","Written",21,21,"jalview_features/AgSp1_glycine_alignment.features"
+"AgSp1_glycine_cross_species","Written",11,11,"jalview_features/AgSp1_glycine_cross_species.features"
+"AgSp1_glycine_rm1_alignment","Written",19,19,"jalview_features/AgSp1_glycine_rm1_alignment.features"
+"AgSp1_glycine_rm2_alignment","Written",1,1,"jalview_features/AgSp1_glycine_rm2_alignment.features"
+"AgSp1_glycine_rm2b_alignment","Written",1,1,"jalview_features/AgSp1_glycine_rm2b_alignment.features"
+"AgSp1_nt_alignment","Written",3,3,"jalview_features/AgSp1_nt_alignment.features"
+"AgSp1_nt_cross_species","Written",3,3,"jalview_features/AgSp1_nt_cross_species.features"
+"AgSp1_rr_alignment","Written",207,207,"jalview_features/AgSp1_rr_alignment.features"
+"AgSp1_rr_cross_species","Written",88,88,"jalview_features/AgSp1_rr_cross_species.features"
+"AgSp1_serine_alignment","Written",55,55,"jalview_features/AgSp1_serine_alignment.features"
+"AgSp1_serine_cross_species","Written",17,17,"jalview_features/AgSp1_serine_cross_species.features"
+"AgSp1_serine_rm1_alignment","Written",26,26,"jalview_features/AgSp1_serine_rm1_alignment.features"
+"AgSp1_serine_rm1c_alignment","No PTM data",0,0,NA
+"AgSp1_serine_rm2_alignment","Written",28,28,"jalview_features/AgSp1_serine_rm2_alignment.features"
+"AgSp1_serine_rm3_alignment","Written",1,1,"jalview_features/AgSp1_serine_rm3_alignment.features"
+"AgSp1_sy_alignment","Written",7,7,"jalview_features/AgSp1_sy_alignment.features"
+"AgSp1_sy_cross_species","No PTM data",0,0,NA
+"AgSp1_tr_alignment","Written",1,1,"jalview_features/AgSp1_tr_alignment.features"
+"AgSp1_tr_cross_species","Written",101,101,"jalview_features/AgSp1_tr_cross_species.features"
+"AgSp1_tr_rm1_alignment","Written",16,16,"jalview_features/AgSp1_tr_rm1_alignment.features"
+"AgSp1_tr_rm2_alignment","Written",6,6,"jalview_features/AgSp1_tr_rm2_alignment.features"
+"AgSp1.1_cp_alignment","No PTM data",0,0,NA
+"AgSp1.1_cr_alignment","No PTM data",0,0,NA
+"AgSp1.1_cr_cross_species","No PTM data",0,0,NA
+"AgSp1.1_ct_alignment","No PTM data",0,0,NA
+"AgSp1.1_ct_cross_species","No PTM data",0,0,NA
+"AgSp1.1_glycine_alignment","Written",20,20,"jalview_features/AgSp1.1_glycine_alignment.features"
+"AgSp1.1_glycine_cross_species","Written",20,20,"jalview_features/AgSp1.1_glycine_cross_species.features"
+"AgSp1.1_glycine_rm1_alignment","Written",20,20,"jalview_features/AgSp1.1_glycine_rm1_alignment.features"
+"AgSp1.1_glycine_rm2_alignment","No PTM data",0,0,NA
+"AgSp1.1_nt_alignment","No PTM data",0,0,NA
+"AgSp1.1_nt_cross_species","No PTM data",0,0,NA
+"AgSp1.1_rr_alignment","Written",135,135,"jalview_features/AgSp1.1_rr_alignment.features"
+"AgSp1.1_rr_cross_species","Written",135,135,"jalview_features/AgSp1.1_rr_cross_species.features"
+"AgSp1.1_serine_alignment","Written",2,2,"jalview_features/AgSp1.1_serine_alignment.features"
+"AgSp1.1_serine_cross_species","Written",2,2,"jalview_features/AgSp1.1_serine_cross_species.features"
+"AgSp1.1_serine_rm1_alignment","No PTM data",0,0,NA
+"AgSp1.1_serine_rm2_alignment","No PTM data",0,0,NA
+"AgSp1.1_serine_rm3_alignment","Written",2,2,"jalview_features/AgSp1.1_serine_rm3_alignment.features"
+"AgSp1.1_sy_alignment","Written",5,5,"jalview_features/AgSp1.1_sy_alignment.features"
+"AgSp1.1_sy_cross_species","Written",5,5,"jalview_features/AgSp1.1_sy_cross_species.features"
+"AgSp1.1_tr_alignment","No PTM data",0,0,NA
+"AgSp1.1_tr_cross_species","Written",24,24,"jalview_features/AgSp1.1_tr_cross_species.features"
+"AgSp1.1_tr_rm1_alignment","Written",21,21,"jalview_features/AgSp1.1_tr_rm1_alignment.features"
+"AgSp1.1_tr_rm2_alignment","Written",3,3,"jalview_features/AgSp1.1_tr_rm2_alignment.features"
+"AgSp1.1_tr_rm3_alignment","No PTM data",0,0,NA
+"AgSp1.2_cr_alignment","Written",7,7,"jalview_features/AgSp1.2_cr_alignment.features"
+"AgSp1.2_cr_cross_species","No PTM data",0,0,NA
+"AgSp1.2_ct_alignment","No PTM data",0,0,NA
+"AgSp1.2_ct_cross_species","No PTM data",0,0,NA
+"AgSp1.2_glycine_alignment","Written",6,6,"jalview_features/AgSp1.2_glycine_alignment.features"
+"AgSp1.2_glycine_cross_species","Written",6,6,"jalview_features/AgSp1.2_glycine_cross_species.features"
+"AgSp1.2_glycine_rm1_alignment","Written",6,6,"jalview_features/AgSp1.2_glycine_rm1_alignment.features"
+"AgSp1.2_nt_alignment","No PTM data",0,0,NA
+"AgSp1.2_nt_cross_species","No PTM data",0,0,NA
+"AgSp1.2_rr_alignment","Written",14,14,"jalview_features/AgSp1.2_rr_alignment.features"
+"AgSp1.2_rr_cross_species","Written",14,14,"jalview_features/AgSp1.2_rr_cross_species.features"
+"AgSp1.2_serine_alignment","Written",20,20,"jalview_features/AgSp1.2_serine_alignment.features"
+"AgSp1.2_serine_cross_species","Written",20,20,"jalview_features/AgSp1.2_serine_cross_species.features"
+"AgSp1.2_serine_rm1_alignment","No PTM data",0,0,NA
+"AgSp1.2_serine_rm2_alignment","Written",10,10,"jalview_features/AgSp1.2_serine_rm2_alignment.features"
+"AgSp1.2_serine_rm3_alignment","Written",10,10,"jalview_features/AgSp1.2_serine_rm3_alignment.features"
+"AgSp1.2_sy_alignment","No PTM data",0,0,NA
+"AgSp1.2_sy_cross_species","No PTM data",0,0,NA
+"AgSp1.2_tr_alignment","Written",7,7,"jalview_features/AgSp1.2_tr_alignment.features"
+"AgSp1.2_tr_cross_species","Written",7,7,"jalview_features/AgSp1.2_tr_cross_species.features"
+"AgSp1.2_tr_rm1_alignment","Written",3,3,"jalview_features/AgSp1.2_tr_rm1_alignment.features"
+"NA_tr_cross_species","Written",10,10,"jalview_features/NA_tr_cross_species.features"

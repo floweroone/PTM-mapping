@@ -2,33 +2,12 @@ install.packages("BiocManager")
 install.packages("rlang")
 BiocManager::install("Biostrings")
 BiocManager::install("msa")
+install.packages("dplyr")
 
 # Load libraries
 library(Biostrings)
 library(msa)
 library(dplyr)
-
-# Read alignment
-aa_aln <- readAAStringSet("aligned-fasta-files/Aa_FASTA_ALIGNED_AND_SECTIONED.fasta")
-
-# View alignment with colors
-aa_aln
-
-# Check alignment width (all should match)
-width(aa_aln)
-
-# Are there any sequences with different widths?
-any(width(aa_aln) != width(aa_aln)[1])
-
-# Inspect first sequence
-as.character(aa_aln[[1]])
-
-# Convert to sequence map
-aa_sequence_map <- data.frame(
-  Sequence = rep(names(aa_aln), times = width(aa_aln)),
-  Position = unlist(lapply(width(aa_aln), seq_len)),
-  Residue  = unlist(strsplit(as.character(aa_aln), ""))
-)
 
 #Finalized automation
 process_alignment <- function(alignment_file) {
@@ -39,6 +18,17 @@ process_alignment <- function(alignment_file) {
   is_num <- grepl("^\\d+$", seq_names)
   seq_names[is_num] <- paste0("Aa_AgSp1_rm1_", seq_names[is_num])
   names(aa_aln) <- seq_names
+  
+  # Strip annotation tags like [BR1], [NA2] and replace ? with X
+  aa_aln <- Biostrings::AAStringSet(gsub("\\[[^\\]]*\\]", "", as.character(aa_aln)))
+  aa_aln <- Biostrings::AAStringSet(gsub("\\?", "X", as.character(aa_aln)))
+  names(aa_aln) <- seq_names
+  
+  # Add this inside process_alignment after the gsub, before building the data frame
+  bracket_seqs <- names(aa_aln)[grepl("\\[", as.character(aa_aln))]
+  if (length(bracket_seqs) > 0) {
+    warning("Bracket tags found in: ", paste(bracket_seqs, collapse = ", "))
+  }
   
   n_seq <- length(aa_aln)
   seq_lengths <- width(aa_aln)
@@ -59,67 +49,50 @@ process_alignment <- function(alignment_file) {
 }
 
 build_master_from_folder <- function(folder = "aligned-fasta-files",
-                                     pattern = "\\.fasta$",
-                                     output_name = "MASTER_alignment_map.csv") {
+                                     pattern = "\\.fasta$") {
   
   files <- list.files(folder, pattern = pattern, full.names = TRUE)
-  
-  if (length(files) == 0) {
-    stop("No alignment files found in folder.")
-  }
+  if (length(files) == 0) stop("No alignment files found in folder.")
   
   alignments <- list()
-  
   master_list <- list()
   
   for (i in seq_along(files)) {
-    
     file_path <- files[i]
     file_name <- basename(file_path)
-    
     message(sprintf("[%d/%d] Processing %s", i, length(files), file_name))
-    
     result <- process_alignment(file_path)
-    
     alignments[[file_name]] <- result
-    
     df <- result$map
     df$File <- file_name
-    
     master_list[[i]] <- df
   }
   
-  # Combine all files
   master_map <- do.call(rbind, master_list)
   
-  # Create unique master ID for each file — gaps (dashes) get NA
+  # Extract AGSP
+  master_map$AGSP <- sapply(as.character(master_map$Sequence), function(s) {
+    m <- regexpr("AgSp[0-9]+(?:\\.[0-9]+)?(?=_|$)", s, perl = TRUE)
+    if (m != -1) regmatches(s, m) else "TRINITY"
+  })
+  
+  # Assign MasterID per AGSP x File — ONE block only
   master_map$MasterID <- NA_integer_
-  master_map <- do.call(rbind, lapply(split(master_map, master_map$File), function(df) {
+  master_map$AgspFile <- paste(master_map$AGSP, master_map$File, sep = "||")
+  master_map <- do.call(rbind, lapply(split(master_map, master_map$AgspFile), function(df) {
+    if (nrow(df) == 0) return(df)
     df$MasterID[df$Residue != "-"] <- seq_len(sum(df$Residue != "-"))
     df
   }))
+  rownames(master_map) <- NULL
+  master_map$AgspFile <- NULL
   
-  # Clean column order
-  master_map <- master_map[, c(
-    "MasterID",
-    "File",
-    "Sequence",
-    "SeqIndex",
-    "AlnCol",
-    "AlnLength",
-    "Residue"
-  )]
+  # GeneID and column order
+  master_map$GeneID <- sub("_(nt|aa)$", "", as.character(master_map$Sequence))
+  master_map <- master_map[, c("MasterID","GeneID","AGSP","Sequence",
+                               "SeqIndex","AlnCol","AlnLength","Residue","File")]
   
-  # Save giant master file
-  write.csv(master_map,
-            file = file.path(folder, output_name),
-            row.names = FALSE)
-  
-  
-  return(list(
-    alignments = alignments,
-    master_map = master_map
-  ))
+  return(list(alignments = alignments, master_map = master_map))
 }
 
 results <- build_master_from_folder(
@@ -128,32 +101,85 @@ results <- build_master_from_folder(
 )
 
 master_map <- results$master_map
+write.csv(master_map, "aligned-fasta-files/MASTER_alignment_map.csv", row.names = FALSE)
 View(master_map)
 
+master_map_residues <- master_map %>%
+  filter(!is.na(MasterID))   # gaps carry no real residue number
+
+View(master_map_residues)
+
 #reading everything in from the folders nicely
-library(dplyr)
-
-TMT_folders <- c("TMT_modifications_raw", "TMT_quantified_raw")
-
-df_all <- lapply(TMT_folders, function(folder) {
-  files <- list.files(folder, pattern = "\\.txt$", full.names = TRUE)
-  
-  lapply(files, function(f) {
-    df <- read.delim(f, sep = "\t", header = TRUE)
+TMT_quantified <- list.files("TMT_quantified_raw", pattern = "\\.txt$", full.names = TRUE) |>
+  lapply(function(f) {
+    df <- read.delim(f, sep = "\t", header = TRUE, check.names = FALSE)
     
-    # Skip rogue files (e.g. P_tepidarorium_proteins.txt)
     if (ncol(df) < 7) {
       message("Skipping (unexpected format): ", basename(f))
       return(NULL)
     }
     
-    df$source_file   <- basename(f)
-    df$source_folder <- basename(folder)
+    df$source_file <- basename(f)
     df
-  })
-}) |> unlist(recursive = FALSE) |> bind_rows()  # <-- this handles mismatched columns
+  }) |>
+  bind_rows()
+View(TMT_quantified)
 
-# Split into two named dataframes
-TMT_modifications <- df_all[df_all$source_folder == "TMT_modifications_raw", ]
-TMT_quantified    <- df_all[df_all$source_folder == "TMT_quantified_raw", ]
+# 2. Join TMT_quantified (from your existing folder-reading code) to the alignment map
+# Strip to common join key
+strip_to_agsp <- function(x) {
+  result <- x
+  has_agsp <- grepl("AgSp[0-9]+(?:\\.[0-9]+)?", x, perl = TRUE)
+  result[has_agsp] <- sub("(.*AgSp[0-9]+(?:\\.[0-9]+)?).*", "\\1", x[has_agsp], perl = TRUE)
+  has_trinity <- grepl("TRINITY", x) & !has_agsp
+  result[has_trinity] <- sub(".*(TRINITY_DN[0-9]+_c[0-9]+_g[0-9]+).*", "\\1", x[has_trinity])
+  result
+}
 
+master_map$JoinKey <- strip_to_agsp(master_map$GeneID)
+TMT_quantified$JoinKey <- strip_to_agsp(TMT_quantified$Gene)
+
+# Check overlap first
+message("Matching genes: ", length(intersect(unique(TMT_quantified$JoinKey), unique(master_map$JoinKey))))
+
+# Join using JoinKey instead of GeneID/Gene
+TMT_quantified_joined <- master_map %>%
+  left_join(
+    TMT_quantified,
+    by = c("JoinKey" = "JoinKey",
+           "MasterID" = "Number",
+           "Residue"  = "Amino Acid")
+  )
+
+View(TMT_quantified_joined)
+
+TMT_quantified_joined_reduced <- TMT_quantified_joined %>%
+  filter(!is.na(source_file))
+
+View(TMT_quantified_joined_reduced)
+
+write.csv(TMT_quantified_joined_reduced, 
+          "TMT_quantified_raw/TMT_quantified_joined_reduced.csv", 
+          row.names = FALSE)
+
+# do this check to see if theres anything wrong
+# anything that didn't match at all
+unmatched <- TMT_quantified %>%
+  anti_join(master_map_residues,
+            by = c("Gene" = "GeneID", "Number" = "MasterID", "Amino Acid" = "Residue"))
+nrow(unmatched)
+unique(unmatched$Gene)
+
+# matches on Gene+Number where the amino acid letter disagrees (signals an offset)
+letter_mismatches <- TMT_quantified %>%
+  inner_join(master_map_residues, by = c("Gene" = "GeneID", "Number" = "MasterID")) %>%
+  filter(`Amino Acid` != Residue)
+
+letter_mismatches_clean <- letter_mismatches %>%
+  rename(MasterID = Number) %>%
+  mutate(AA_difference = paste0("Alignment: ", Residue, " | TMT: ", `Amino Acid`)) %>%
+  select(Gene, MasterID, Residue, `Amino Acid`, AA_difference, File, Sequence, source_file) %>%
+  arrange(Gene, MasterID)
+
+View(letter_mismatches_clean)
+write.csv(letter_mismatches_clean, "letter_mismatches_clean.csv", row.names = FALSE)

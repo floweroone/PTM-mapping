@@ -1,0 +1,170 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.23)  23 JUN 2026 13:30
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\bgroup\catcode62=2\relax \catcode`\_=12\relax \toks0\bgroup\input ./msa_prettyprints/AgSp1_all_serine_alignment.tex \relax>\expandafter\egroup\the\toks0\relax \bgroup\catcode62=2\relax \catcode`\_=12\relax \toks0\bgroup\input ./msa_prettyprints/AgSp1_all_serine_alignment.tex \relax>\expandafter\egroup\the\toks0\relax
+(./msa_prettyprints/AgSp1_all_serine_alignment.tex (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
+) (/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library/msa/tex/texshade.sty
+Package: texshade 2021/04/01 LaTeX TeXshade (v1.26)
+ Package `texshade', Version 1.26 of 2021/04/01. (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2026-05-17 v1.3f Standard LaTeX Color (DPC)
+ (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 149.
+ (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2025/01/21 v3.2a Graphics/color driver for dvips
+) (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2026-05-17 v3.0m Driver-dependent file (DPC,SPQR)
+) (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+ (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\structurefile=\read2
+\featurefile=\write3
+\alignfile=\read3
+\sublogofile=\read4
+\exp@rtfile=\write4
+\exp@rt@chimerafile=\write5
+ (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+\symalphahelix=\mathgroup6
+\loopcount=\count284
+\innerloopcount=\count285
+\outerloopcount=\count286
+\seq@count=\count287
+\killseq@count=\count288
+\seq@percent=\count289
+\res@count=\count290
+\seq@pointer=\count291
+\pos@count=\count292
+\res@perline=\count293
+\end@count=\count294
+\cons@count=\count295
+\total@count=\count296
+\temp@count=\count297
+\triple@count=\count298
+\temp@@count=\count299
+\pos@sum=\count300
+\box@width=\skip51
+\name@width=\skip52
+\box@depth=\skip53
+\width@tmp=\skip54
+\box@height=\skip55
+\number@width=\skip56
+\line@stretch=\skip57
+\center@fill=\skip58
+\arrow@width=\skip59
+\arrow@height=\skip60
+\rule@thick=\skip61
+\arrow@thick=\skip62
+\logo@height=\skip63
+\equal@width=\skip64
+\equal@tmp=\skip65
+\equal@height=\skip66
+\temp@@length=\skip67
+\vspace@legend=\skip68
+\hspace@legend=\skip69
+\bar@length=\skip70
+Package color Info: Redefining color LightGray on input line 1721.
+Package color Info: Redefining color LightLightGray on input line 1822.
+Package color Info: Redefining color LightLightLightGray on input line 1924.
+) (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count301
+) (/Users/isabelduarte/PTM-mapping/AgSp1_all_serine_alignment.aux)
+\openout1 = `AgSp1_all_serine_alignment.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+ (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (/var/folders/jb/7ltgvd7d7jbd_k9f_727b02c0000gn/T//RtmpSTJ0T3/seq3b2447e6db76.fasta: . . [1
+Non-PDF special ignored!
+<special> papersize=794.96999pt,614.295pt
+
+]
+Overfull \vbox (1026.51074pt too high) has occurred while \output is active []
+
+ [2{/Users/isabelduarte/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] .
+Overfull \vbox (1026.51074pt too high) has occurred while \output is active []
+
+ [3] )
+LaTeX Font Info:    Trying to load font information for U+msa on input line 195.
+ (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 195.
+ (/Users/isabelduarte/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \vbox (1026.51074pt too high) has occurred while \output is active []
+
+ [4] [5] (/Users/isabelduarte/PTM-mapping/AgSp1_all_serine_alignment.aux)
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 61831 strings out of 469158
+ 837104 string characters out of 5459505
+ 4101675 words of memory out of 5000000
+ 90850 multiletter control sequences out of 15000+600000
+ 630061 words of font info for 51 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 1073i,7n,1270p,503b,82406s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/isabelduarte/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></Users/isabelduarte/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/isabelduarte/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on AgSp1_all_serine_alignment.pdf (5 pages, 352725 bytes).
+PDF statistics:
+ 35 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

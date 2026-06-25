@@ -1,0 +1,49 @@
+Phos	2AB0A0
+Hex	FF9937
+Both	FF3737
+
+Hex (T)	Aarg_AgSp1__FC511_glycine_rm1_1	-1	75	75	Hex	1.00
+Hex (T)	Aarg_AgSp1__FC511_glycine_rm1_1	-1	76	76	Hex	1.00
+Hex (T)	Aarg_AgSp1__FC511_glycine_rm1_2	-1	75	75	Hex	1.00
+Hex (T)	Aarg_AgSp1__FC511_glycine_rm1_2	-1	76	76	Hex	1.00
+Hex (T)	Aarg_AgSp1__FC511_glycine_rm1_2	-1	77	77	Hex	1.00
+Hex (T)	Aarg_AgSp1__FC511_glycine_rm1_2	-1	78	78	Hex	1.00
+Hex (T)	Atri_AgSp1_genomic_glycine_rm1_2	-1	75	75	Hex	0.00
+Hex (T)	Atri_AgSp1_genomic_glycine_rm1_2	-1	76	76	Hex	0.00
+Hex (T)	Atri_AgSp1_genomic_glycine_rm1_2	-1	77	77	Hex	0.00
+Hex (T)	Atri_AgSp1_genomic_glycine_rm1_2	-1	78	78	Hex	0.00
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_1	-1	23	23	Hex	0.00
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_1	-1	27	27	Hex	0.00
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_1	-1	28	28	Hex	0.91
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_1	-1	75	75	Hex	1.00
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_1	-1	76	76	Hex	0.83
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_37	-1	75	75	Hex	0.00
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_37	-1	76	76	Hex	0.94
+Hex (S)	Lcorn_18104_AgSp1.1_glycine_rm1_37	-1	123	123	Hex	1.00
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_37	-1	145	145	Hex	0.40
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_37	-1	146	146	Hex	0.73
+Hex (S)	Lcorn_18104_AgSp1.1_glycine_rm1_38	-1	85	85	Hex	1.00
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_38	-1	145	145	Hex	1.00
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_38	-1	146	146	Hex	1.00
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_38	-1	147	147	Hex	1.00
+Hex (T)	Lcorn_18104_AgSp1.1_glycine_rm1_38	-1	148	148	Hex	1.00
+Hex (T)	Mlaby_7048_AgSp1_glycine_rm1a_15	-1	182	182	Hex	1.00
+Hex (T)	Mlaby_7048_AgSp1_glycine_rm1a_2	-1	75	75	Hex	1.00
+Hex (T)	Mlaby_7048_AgSp1_glycine_rm1a_2	-1	76	76	Hex	1.00
+Hex (T)	Ncruc_58532and13532_AgSp1_glycine_rm_1	-1	75	75	Hex	0.00
+Hex (T)	Ncruc_58532and13532_AgSp1_glycine_rm_1	-1	76	76	Hex	0.00
+Hex (T)	Ncruc_58532and13532_AgSp1_glycine_rm_1	-1	142	142	Hex	0.26
+Hex (T)	Ncruc_58532and13532_AgSp1_glycine_rm_1	-1	145	145	Hex	1.00
+Hex (T)	Ncruc_58532and13532_AgSp1_glycine_rm_1	-1	146	146	Hex	0.29
+Hex (T)	Ncruc_58532and13532_AgSp1_glycine_rm_1	-1	148	148	Hex	1.00
+Hex (T)	Varen_6869_AgSp1.1_glycine_rm1_1	-1	75	75	Hex	1.00
+Hex (T)	Varen_6869_AgSp1.1_glycine_rm1_1	-1	76	76	Hex	1.00
+Hex (S)	Varen_6869_AgSp1.1_glycine_rm1_2	-1	75	75	Hex	0.00
+Hex (T)	Varen_6869_AgSp1.1_glycine_rm1_2	-1	76	76	Hex	0.97
+Hex (T)	Varen_6869_AgSp1.2_glycine_rm1_1	-1	27	27	Hex	1.00
+Both (S)	Lcorn_18104_AgSp1.1_glycine_rm1_1	-1	31	31	Both	1.00
+Both (T)	Varen_6869_AgSp1.2_glycine_rm1_1	-1	28	28	Both	1.00
+Both (S)	Varen_6869_AgSp1.2_glycine_rm1_1	-1	31	31	Both	1.00
+Both (T)	Varen_6869_AgSp1.2_glycine_rm1_11	-1	27	27	Both	0.90
+Both (T)	Varen_6869_AgSp1.2_glycine_rm1_11	-1	28	28	Both	0.96
+Both (S)	Varen_6869_AgSp1.2_glycine_rm1_11	-1	31	31	Both	1.00

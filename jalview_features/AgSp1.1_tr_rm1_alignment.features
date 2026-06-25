@@ -1,0 +1,25 @@
+Phos	2AB0A0
+Hex	FF9937
+Both	FF3737
+
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_2	-1	22	22	Hex	0.00
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_2	-1	23	23	Hex	0.87
+Hex (S)	Lcorn_18104_AgSp1.1_tr_rm1_2	-1	28	28	Hex	0.87
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_2	-1	37	37	Hex	0.87
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_2	-1	38	38	Hex	0.87
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_2	-1	40	40	Hex	0.87
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_3	-1	3	3	Hex	1.00
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_3	-1	4	4	Hex	1.00
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_3	-1	7	7	Hex	1.00
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_3	-1	9	9	Hex	0.00
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_3	-1	37	37	Hex	1.00
+Hex (S)	Lcorn_18104_AgSp1.1_tr_rm1_3	-1	41	41	Hex	1.00
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_4	-1	22	22	Hex	0.00
+Hex (T)	Lcorn_18104_AgSp1.1_tr_rm1_4	-1	23	23	Hex	0.90
+Hex (T)	Varen_6869_AgSp1.1_tr_rm1_2	-1	4	4	Hex	1.00
+Hex (T)	Varen_6869_AgSp1.1_tr_rm1_4	-1	22	22	Hex	1.00
+Hex (T)	Varen_6869_AgSp1.1_tr_rm1_4	-1	23	23	Hex	1.00
+Both (T)	Lcorn_18104_AgSp1.1_tr_rm1_1	-1	38	38	Both	1.00
+Both (S)	Lcorn_18104_AgSp1.1_tr_rm1_1	-1	41	41	Both	0.81
+Both (T)	Varen_6869_AgSp1.1_tr_rm1_1	-1	38	38	Both	1.00
+Both (S)	Varen_6869_AgSp1.1_tr_rm1_1	-1	41	41	Both	1.00

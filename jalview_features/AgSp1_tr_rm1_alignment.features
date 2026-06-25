@@ -1,0 +1,20 @@
+Phos	2AB0A0
+Hex	FF9937
+Both	FF3737
+
+Hex (T)	Aarg_AgSp1__FC511_tr_rm1_3	-1	104	104	Hex	1.00
+Hex (T)	Aarg_AgSp1__FC511_tr_rm1_3	-1	105	105	Hex	0.46
+Hex (T)	Aarg_AgSp1__FC511_tr_rm1_4	-1	22	22	Hex	0.00
+Hex (T)	Aarg_AgSp1__FC511_tr_rm1_4	-1	23	23	Hex	0.00
+Hex (S)	Aarg_AgSp1__FC511_tr_rm1_6	-1	17	17	Hex	1.00
+Hex (T)	Aarg_AgSp1__FC511_tr_rm1_6	-1	22	22	Hex	0.87
+Hex (T)	Aarg_AgSp1__FC511_tr_rm1_6	-1	23	23	Hex	0.99
+Hex (T)	Aarg_AgSp1__FC511_tr_rm1_6	-1	101	101	Hex	1.00
+Hex (T)	Aarg_AgSp1__FC511_tr_rm1_6	-1	104	104	Hex	1.00
+Hex (T)	Aarg_AgSp1__FC511_tr_rm1_6	-1	105	105	Hex	1.00
+Hex (T)	Aarg_AgSp1__FC511_tr_rm1_6	-1	107	107	Hex	0.00
+Hex (T)	Atri_AgSp1_genomic_tr_rm1_4	-1	22	22	Hex	0.00
+Hex (T)	Atri_AgSp1_genomic_tr_rm1_4	-1	23	23	Hex	0.00
+Hex (T)	Atri_AgSp1_genomic_tr_rm1_6	-1	22	22	Hex	1.00
+Hex (T)	Atri_AgSp1_genomic_tr_rm1_6	-1	23	23	Hex	1.00
+Both (S)	Aarg_AgSp1__FC511_tr_rm1_3	-1	108	108	Both	1.00
