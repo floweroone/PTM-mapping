@@ -18,11 +18,7 @@ master_map <- read.csv("aligned-fasta-files/MASTER_alignment_map.csv")
 # Rebuild line_pos_map with Residue included
 line_pos_map <- master_map %>%
   filter(Residue != "-") %>%
-  group_by(Sequence) %>%
-  arrange(MasterID) %>%
-  mutate(line_pos = row_number()) %>%
-  ungroup() %>%
-  select(MasterID, Sequence, Residue, line_pos)
+  select(MasterID, Sequence, Residue, line_pos = AlnCol)
 
 # Now test the join
 ptm %>%
